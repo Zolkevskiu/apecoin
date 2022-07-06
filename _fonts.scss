@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'mdio0 regular';
+    src: url(../font/MDIO0.4-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'mdio0 bold';
+    src: url(../font/MDIO0.4-Semibold.ttf);
+}
+
+@font-face {
+    font-family: 'mdio0 ultra';
+    src: url(../font/MDIO0.4-Ultra.ttf);
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../font/SFProDisplay-Bold.eot');
+    src: local('SF Pro Display Bold'), local('SFProDisplay-Bold'),
+        url('../font/SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/SFProDisplay-Bold.woff2') format('woff2'),
+        url('../font/SFProDisplay-Bold.woff') format('woff'),
+        url('../font/SFProDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}

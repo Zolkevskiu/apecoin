@@ -1,0 +1,443 @@
+@media (max-width: 1766px) {
+    .header-left-img {
+        width: 650px;
+        margin-top: 0px;
+    }
+
+    .header-right-img {
+        width: 200px;
+        top: 850px;
+    }
+
+    .text_block-h1 {
+        font-size: 86px;
+        width: 670px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .last_Chance-block {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 330px;
+    }
+}
+
+@media (max-width: 1450px) {
+    .checked-footer {
+        margin-left: -100px;
+    }
+
+    .header-center-img {
+        width: 650px;
+        margin-top: -130px;
+    }
+
+    .card-h {
+        font-size: 22px;
+    }
+
+    .card-p,
+    .block_prev-p {
+        font-size: 16px;
+    }
+
+    .block_prev-h {
+        font-size: 30px;
+    }
+
+    .text_block-h1 {
+        font-size: 60px;
+
+        &::before {
+            margin-top: 50px;
+            right: 20px;
+            height: 100px;
+        }
+    }
+
+    .checked-footer {
+        display: none;
+    }
+
+    .text-block_subtitle {
+        width: 450px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .checked-footer {
+        margin-left: -90px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .header-left-img {
+        width: 520px;
+        margin-top: -10px;
+    }
+
+    .nav {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1260px) {
+    .card-h {
+        font-size: 19px;
+    }
+
+    .card-p {
+        font-size: 14px;
+    }
+
+    .checked-footer {
+        margin-left: -85px;
+    }
+
+    .profit-header-text_block .text_block-h1 {
+        font-size: 58px;
+        width: 600px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .card-h {
+        font-size: 40px;
+    }
+
+    .card-p {
+        font-size: 17px;
+    }
+
+    .header-right-img {
+        margin-top: -350px;
+    }
+
+    .block_prev-h {
+        font-size: 24px;
+    }
+
+    .block_prev-p {
+        font-size: 14px;
+    }
+
+    .footer-history-col {
+        display: grid;
+        position: relative;
+        grid-template-columns: repeat(5, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+    }
+
+    .checked-footer-sec {
+        display: block;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .from-s {
+        display: block;
+    }
+
+    .history-col-text_value {
+        margin-left: 40px;
+    }
+
+    .history-col-text_time {
+        margin-left: -15px;
+    }
+
+    .footer-head {
+        display: grid;
+        grid-template-columns: 4fr 2fr 1fr;
+    }
+
+    .footer-head {
+        .head-col {
+            margin: 0 auto;
+        }
+    }
+
+    .head-col:nth-child(4),
+    .head-col:nth-child(5),
+    .head-col:nth-child(7),
+    .head-col:nth-child(3) {
+        left: 0;
+    }
+
+    .checked-footer {
+        display: none;
+        position: absolute;
+
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin-left: -250px;
+    }
+
+    .hash,
+    .block,
+    .fee,
+    .to,
+    .from-f,
+    .hide {
+        display: none;
+    }
+
+    .last_Chance-block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .last_Chance-block-contact {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .apecoin-block {
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    .ethereum-block {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .about-card_row {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    .card_col {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-ul {
+        display: none;
+    }
+
+    .header-left-img {
+        display: none;
+    }
+
+    .header-center-img {
+        display: none;
+    }
+
+    .nav-li {
+        margin: 0 50px;
+    }
+}
+
+@media (max-width:768px) {
+    .about-block_prev {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: 420px;
+        width: 90%;
+        margin: 0 auto;
+        padding: 28px;
+    }
+
+    .text_block-h1::before {
+        display: none;
+    }
+
+    .header-prise_text {
+        position: relative;
+        top: -60px;
+    }
+
+    .text_block-h1 {
+        margin-top: -60px;
+        width: 380px;
+        font-size: 50px;
+    }
+
+    .text-block_subtitle {
+        width: 90%;
+        font-size: 13px;
+    }
+
+    .block_prev-h {
+        font-size: 36px;
+    }
+
+    .block_prev-p {
+        font-size: 18px;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .contact-input_adress {
+        width: 90%;
+    }
+
+    .adress-modal-window {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+@media (max-width:650px) {
+
+    .apecoin-block_send,
+    .apecoin-block_receive {
+        width: 90%;
+    }
+
+    .contact-input_adress {
+        font-size: 14px;
+    }
+
+    .profit-block .text-block_subtitle-sec {
+        font-size: 13px;
+    }
+
+    .profit-header-text_block .text_block-h1 {
+        font-size: 46px;
+        width: 480px;
+    }
+
+    .profit-block .text-block_subtitle-sec {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (max-width:550px) {
+    .calculator-apcoin-send {
+        width: 150px;
+        background-position: 125px;
+    }
+
+    .calculator-apcoin-receive {
+        width: 150px;
+    }
+
+    .block-send_h3 {
+        font-size: 11px;
+    }
+
+    .footer-history-col {
+        font-size: 13px;
+    }
+
+    .history-col-text_from {
+
+
+        .history-col-text {
+            margin-left: 15px;
+        }
+    }
+
+    .history-col-text_time {
+        margin-left: -65px;
+    }
+
+    .history-col-text_from {
+        margin-left: 0;
+    }
+
+    .history-col-text_value {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:490px) {
+    .contact-input_adress {
+        font-size: 10px;
+    }
+
+    .header-prise_text {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .prise_text-sec {
+        font-size: 14px;
+    }
+
+    .header-prise_text .prise_text-f {
+        width: 100px;
+        font-size: 13px;
+    }
+
+    .profit-header-text_block .text_block-h1 {
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width:425px) {
+
+    .header-right-img {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .header-prise_text .prise_text-sec {
+        font-size: 14px;
+    }
+
+    .contact-input_adress {
+        padding-left: 10px;
+    }
+
+    .last_Chance-block-contact {
+        height: 330px;
+    }
+    .last_Chance-block {
+        display: none;       
+    }
+    
+    .last_Chance-block-mobile {
+        width: 100%;
+        display: block;
+    }
+}
+@media (max-width: 375px) {
+    .contact-input_adress {
+      width: 95%;
+      font-size: 8px;
+    }
+    .contact-btn-copy {
+     left:  -5px;
+    }
+    .header-prise_text .prise_text-sec {
+      font-size: 11px;
+    }
+    .text_block-h1 {
+      width: 100%;
+      text-align: center;
+      font-size: 43px;
+    }
+    .nav {
+      img {
+        width: 110px;
+      }
+    }
+    .text-block_subtitle {
+        font-size: 8.5px;
+    }
+    .about-block_prev {
+        height: 460px;
+    }
+  }

