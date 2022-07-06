@@ -1,1 +1,1 @@
-https://qwhiteq.github.io/ApeCoin/
+https://zolkevskiu.github.io/apecoin/
