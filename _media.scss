@@ -1,3 +1,14 @@
+@media (min-width: 1921px) {
+    .header {
+        max-width: 1991px;
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+    }
+    .header-left-img {
+        left: -110px;
+    }
+}
 @media (max-width: 1766px) {
     .header-left-img {
         width: 650px;
