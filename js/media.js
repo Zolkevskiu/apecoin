@@ -17,3 +17,12 @@ function checkMediaQuery() {
 
     return windowResize, windowResizeSec
 }
+if (window.matchMedia("(min-width: 1921px)").matches) {
+    rightImg.src = 'img/header-right.png'
+    leftImg.src = 'img/header-left.png'
+    /* the viewport is at least 1921 pixels wide */
+  } else {
+    /* the viewport is less than 1921 pixels wide */
+    rightImg.src = 'img/header-right-img.png'
+    leftImg.src = 'img/header-left-img.png'
+  }
